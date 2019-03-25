@@ -7,6 +7,7 @@ body {
 .link {
   &:link,
   &:visited {
+      font-family: 'Open Sans', sans-serif;
     color: $color-black;
     text-transform: uppercase;
     text-decoration: none;
@@ -15,8 +16,6 @@ body {
 }
 
 .progress__text {
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 400;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 4px;
