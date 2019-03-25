@@ -1,0 +1,9 @@
+.progress {
+    max-width: 200rem;
+    padding: 2rem 20.3rem;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
