@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84.991" height="109.009" viewBox="0 0 84.991 109.009">
+  <g id="cert" transform="translate(-0.005 0.004)">
+    <g id="Group_15" data-name="Group 15">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="79.979" height="103.998" transform="translate(2.511 2.501)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5.012"/>
+      <line id="Line_25" data-name="Line 25" x2="61.01" transform="translate(11.896 26.385)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_26" data-name="Line 26" x2="61.01" transform="translate(11.896 31.51)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_27" data-name="Line 27" x2="61.01" transform="translate(11.896 38.157)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_28" data-name="Line 28" x2="18.077" transform="translate(11.896 48.406)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_29" data-name="Line 29" x2="18.077" transform="translate(11.896 53.531)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_30" data-name="Line 30" x2="18.077" transform="translate(27.263 12.541)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_31" data-name="Line 31" x2="18.077" transform="translate(27.263 17.667)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_32" data-name="Line 32" x2="61.01" transform="translate(11.896 58.656)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_33" data-name="Line 33" x2="61.01" transform="translate(11.896 63.78)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_34" data-name="Line 34" x2="18.303" transform="translate(11.896 74.031)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_35" data-name="Line 35" x2="14.687" transform="translate(58.219 74.031)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_36" data-name="Line 36" x2="7.343" transform="translate(65.564 12.541)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_37" data-name="Line 37" x2="7.343" transform="translate(32.416 53.531)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <line id="Line_38" data-name="Line 38" x2="3.673" transform="translate(41.792 53.531)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.009"/>
+      <g id="Group_14" data-name="Group 14">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="8.319" height="8.288" transform="translate(40.266 84.713) rotate(22.671)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.005"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="8.319" height="8.288" transform="translate(37.073 87.875) rotate(-22.329)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.005"/>
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="matrix(0.226, -0.974, 0.974, 0.225, 31.755, 96.883)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.005">
+          <ellipse cx="8.998" cy="8.937" rx="8.998" ry="8.937" stroke="none"/>
+          <ellipse cx="8.998" cy="8.937" rx="7.995" ry="7.935" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_79" data-name="Path 79" d="M17.82,18.66l5.924-5.177-2.582-1.842H14.479L11.9,13.483Z" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.005"/>
+    </g>
+  </g>
+</svg>

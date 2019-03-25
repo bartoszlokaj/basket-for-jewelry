@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="127" viewBox="0 0 128 127">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop" width="128" height="127" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="korekta" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="41.685" cy="41.36" rx="41.685" ry="41.36" transform="translate(22.236 23.311)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5.059"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="35.535" cy="35.258" rx="35.535" ry="35.258" transform="translate(28.387 29.413)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.024"/>
+    <g id="Group_16" data-name="Group 16">
+      <line id="Line_51" data-name="Line 51" y1="13.31" transform="translate(63.672 113.297)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.016"/>
+      <path id="Path_83" data-name="Path 83" d="M69.543,120.781l-5.871,5.825L57.8,120.782" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.024"/>
+    </g>
+    <g id="Group_17" data-name="Group 17">
+      <line id="Line_52" data-name="Line 52" x2="14.906" transform="translate(0 64.427)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.032"/>
+      <path id="Path_84" data-name="Path 84" d="M5.871,70.253,0,64.427,5.871,58.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.024"/>
+    </g>
+    <line id="Line_53" data-name="Line 53" x2="14.906" transform="translate(112.43 64.427)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.032"/>
+    <path id="Path_85" data-name="Path 85" d="M121.465,58.594l5.871,5.825-5.871,5.825" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.024"/>
+    <path id="Path_86" data-name="Path 86" d="M63.738,24.765l18.9-16.419L75.911,0H51.932L45.206,8.346,63.738,24.765"/>
+    <path id="Path_87" data-name="Path 87" d="M59.043,2.31l-5.5,6.823,5.5,4.845,5.5-4.846Z" fill="#fff"/>
+  </g>
+</svg>

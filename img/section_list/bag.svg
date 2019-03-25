@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="107" viewBox="0 0 82 107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop" width="82" height="107" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="torba" clip-path="url(#clip-path)">
+    <g id="Group_13" data-name="Group 13">
+      <path id="Path_69" data-name="Path 69" d="M25.407,21.273V18.222A15.692,15.692,0,0,1,41,2.524h0a15.692,15.692,0,0,1,15.594,15.7v3.051" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.03"/>
+      <path id="Path_70" data-name="Path 70" d="M70.237,22.143H11.762L2.535,100.168a3.914,3.914,0,0,0,3.871,4.389H75.594a3.914,3.914,0,0,0,3.871-4.389Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5.03"/>
+      <g id="Group_10" data-name="Group 10">
+        <line id="Line_15" data-name="Line 15" y2="8.938" transform="translate(56.594 22.146)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.019"/>
+        <line id="Line_16" data-name="Line 16" y1="8.938" transform="translate(25.406 22.146)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.019"/>
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="2.437" cy="2.453" rx="2.437" ry="2.453" transform="translate(22.97 28.631)"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="2.437" cy="2.453" rx="2.437" ry="2.453" transform="translate(54.157 28.631)"/>
+      </g>
+      <g id="Group_12" data-name="Group 12">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="20.078" height="20.212" transform="translate(35.607 56.028) rotate(22.671)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="20.078" height="20.212" transform="matrix(0.925, -0.38, 0.38, 0.925, 27.901, 63.74)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <g id="Group_11" data-name="Group 11">
+          <line id="Line_17" data-name="Line 17" x2="5.732" y2="2.371" transform="translate(22.168 61.369)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_18" data-name="Line 18" y1="2.409" x2="5.717" transform="translate(22.151 74.679)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_19" data-name="Line 19" y1="5.757" x2="2.388" transform="translate(33.141 82.437)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_20" data-name="Line 20" x1="2.362" y1="5.768" transform="translate(46.395 82.469)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_21" data-name="Line 21" x1="5.72" y1="2.401" transform="translate(54.101 74.758)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_22" data-name="Line 22" y1="2.419" x2="5.713" transform="translate(54.134 61.4)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_23" data-name="Line 23" x1="2.373" y2="5.763" transform="translate(46.473 50.298)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+          <line id="Line_24" data-name="Line 24" x2="2.377" y2="5.762" transform="translate(33.243 50.378)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        </g>
+        <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(15.066 85.709) rotate(-76.962)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.012">
+          <ellipse cx="21.794" cy="21.718" rx="21.794" ry="21.718" stroke="none"/>
+          <ellipse cx="21.794" cy="21.718" rx="20.788" ry="20.712" fill="none"/>
+        </g>
+        <path id="Path_71" data-name="Path 71" d="M54.134,63.819l7.08,5.556L54.1,74.758" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_72" data-name="Path 72" d="M46.473,56.061,55.379,54.9l-1.245,8.914" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_73" data-name="Path 73" d="M35.607,56.028l5.4-7.2,5.469,7.232" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_74" data-name="Path 74" d="M27.9,63.74,26.78,54.829l8.827,1.2" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_75" data-name="Path 75" d="M27.868,74.679l-7.124-5.455L27.9,63.74" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_76" data-name="Path 76" d="M35.529,82.437l-8.774,1.182,1.113-8.94" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_77" data-name="Path 77" d="M46.395,82.469l-5.416,7.125-5.451-7.157" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+        <path id="Path_78" data-name="Path 78" d="M54.1,74.758l1.2,8.836-8.909-1.125" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="2.012"/>
+      </g>
+    </g>
+  </g>
+</svg>
