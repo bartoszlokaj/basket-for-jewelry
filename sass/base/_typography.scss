@@ -1,13 +1,23 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: $default-font-size;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+}
+
+.link {
+  &:link,
+  &:visited {
+    color: $color-black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+  }
 }
 
 .progress__text {
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
