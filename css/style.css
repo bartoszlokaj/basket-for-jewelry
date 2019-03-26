@@ -38,7 +38,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #fff; }
+  background-color: #ffffff; }
 
 body {
   font-family: "Playfair Display", sans-serif;
@@ -47,7 +47,7 @@ body {
 
 .link:link, .link:visited {
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: #000000;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px; }
@@ -55,7 +55,10 @@ body {
 .progress__text {
   font-size: 1.9rem;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  color: #7F7F7F; }
+  .progress__text--active {
+    color: #000000; }
 
 .header {
   width: 100%;
@@ -84,6 +87,7 @@ body {
         height: unset; } }
 
 .progress {
+  background-image: linear-gradient(#f8f8f8, #ffffff);
   max-width: 200rem;
   padding: 7rem 15.3rem; }
   .progress__row {
@@ -99,8 +103,8 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 86%;
-        height: 0;
-        border-top: 1px solid black;
+        height: 1px;
+        background-color: #cccccc;
         margin: 0 auto; }
         @media (max-width: 75em) {
           .progress__row--bottom .line {
@@ -123,4 +127,4 @@ body {
     height: 2.3rem;
     position: relative;
     z-index: 1;
-    background: #fff; }
+    background: #ffffff; }

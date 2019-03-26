@@ -1,4 +1,7 @@
 .progress {
+  background-image: linear-gradient(
+                     $color-light-gray,
+                     $color-white);
   max-width: 200rem;
   padding: 7rem 15.3rem;
 
@@ -17,8 +20,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 86%;
-        height: 0;
-        border-top: 1px solid black;
+        height: 1px;
+        background-color: $color-light-gray-2;
         margin: 0 auto;
 
         @include respond(tab-land) {
