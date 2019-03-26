@@ -13,7 +13,7 @@ html {
     font-size: 50%; //1rem = 8px
   }
 
-  @include respond(phablet) {
+  @include respond(tab-small) {
     font-size: 37.5%; //1rem = 6px
   }
 

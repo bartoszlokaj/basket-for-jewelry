@@ -37,6 +37,10 @@ $breakpoint choices:
     @media (max-width: 37.5em) { @content };      //600px
   }
 
+  @if $breakpoint == tab-small {
+    @media (max-width: 48.56em) { @content };     //900px
+  }
+
   @if $breakpoint == tab-port {
     @media (max-width: 56.25em) { @content };     //900px
   }
