@@ -14,16 +14,24 @@
         &--2 {
             margin-bottom: 3.4rem;
         }
+
+        &--3 {
+            margin-bottom: 3.4rem;
+        }
     }
 
     &__input {
         width: 47%;
         height: 3.9rem;
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         font-family: inherit;
         background-color: $color-white;
         border: 1px solid transparent;
         border-bottom: 2px solid $color-dark-gray;
+
+        &--notReq {
+            border-bottom: 1px solid $color-dark-gray;
+        }
 
         &--address {
             width: 100%;
@@ -39,6 +47,14 @@
 
         &--country {
             width: 33%;
+        }
+
+        &--phone {
+            width: 29%;
+        }
+
+        &--mail {
+            width: 65%;
         }
     }
 
