@@ -93,6 +93,15 @@ body {
     margin-bottom: 1.9rem; }
     .progress__row--bottom {
       position: relative; }
+      .progress__row--bottom .line {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 86%;
+        height: 0;
+        border-top: 1px solid black;
+        margin: 0 auto; }
   .progress__text--middle {
     text-align: center;
     width: 39rem;
@@ -102,4 +111,7 @@ body {
     display: flex;
     justify-content: center; }
   .progress__circle {
-    height: 2.3rem; }
+    height: 2.3rem;
+    position: relative;
+    z-index: 1;
+    background: #fff; }
