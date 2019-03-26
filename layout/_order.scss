@@ -1,0 +1,18 @@
+.order {
+    height: 100vh;
+    padding: 0rem 9.3rem;
+    
+    &__row {
+        display: flex;
+    }
+
+    &__form {
+        width: 49%;
+        height: 100vh;
+        background-color: aquamarine;
+    }
+
+    &__basket {
+        width: 55%;
+    }
+}
