@@ -88,4 +88,6 @@ body {
   padding: 7rem 15.3rem; }
   .progress__row {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.9rem; }
