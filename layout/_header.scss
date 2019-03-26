@@ -1,21 +1,36 @@
 .header {
     width: 100%;
-    height: 18.3rem;
-    padding: 2rem 20.3rem;
+    height: 13.5rem;
+    padding: 2.6rem 15.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    &__arrow {
+        height: 2.4rem;
+
+        @include respond(big-desktop) {
+            height: unset;
+          }
+    }
     
 
     &__link-wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-width: 28.7rem;
+        min-width: 23.9rem;
 
         &--right {
             display: flex;
             justify-content: flex-end;
         }
+    }
+
+    &__img {
+        height: 7.4rem;
+        @include respond(big-desktop) {
+            height: unset;
+          }
     }
 }
