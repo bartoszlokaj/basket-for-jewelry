@@ -91,3 +91,15 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.9rem; }
+    .progress__row--bottom {
+      position: relative; }
+  .progress__text--middle {
+    text-align: center;
+    width: 39rem;
+    margin-left: 0.5rem; }
+  .progress__circle-wrapper {
+    width: 18.2rem;
+    display: flex;
+    justify-content: center; }
+  .progress__circle {
+    height: 2.3rem; }

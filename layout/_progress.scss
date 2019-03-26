@@ -1,11 +1,31 @@
 .progress {
-    max-width: 200rem;
-    padding: 7rem 15.3rem;
+  max-width: 200rem;
+  padding: 7rem 15.3rem;
 
-    &__row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1.9rem;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.9rem;
+
+    &--bottom {
+        position: relative;
     }
+  }
+
+  &__text--middle {
+    text-align: center;
+    width: 39rem;
+    margin-left: 0.5rem;
+  }
+
+  &__circle-wrapper {
+    width: 18.2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__circle {
+    height: 2.3rem;
+  }
 }
