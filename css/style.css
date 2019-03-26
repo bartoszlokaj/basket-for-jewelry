@@ -70,7 +70,7 @@ body {
 .order__form {
   width: 49%;
   height: 100vh;
-  padding: 3.4rem 6.2rem;
+  padding: 3.4rem 5.8rem;
   border-radius: 2px; }
 
 .form__group {
@@ -84,7 +84,17 @@ body {
   font-family: inherit;
   background-color: #ffffff;
   border: 1px solid transparent;
-  border-bottom: 2px solid #7F7F7F; }
+  border-bottom: 2px solid #7F7F7F;
+  margin-bottom: 2.9rem; }
+  .form__input--address {
+    width: 100%;
+    margin-bottom: 3.4rem; }
+  .form__input--code {
+    width: 22%; }
+  .form__input--city {
+    width: 33%; }
+  .form__input--country {
+    width: 33%; }
 
 .form__label {
   display: none; }

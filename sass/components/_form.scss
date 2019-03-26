@@ -1,7 +1,7 @@
 .order__form {
     width: 49%;
     height: 100vh;
-    padding: 3.4rem 6.2rem;
+    padding: 3.4rem 5.8rem;
     border-radius: 2px;
 }
 
@@ -19,6 +19,24 @@
         background-color: $color-white;
         border: 1px solid transparent;
         border-bottom: 2px solid $color-dark-gray;
+        margin-bottom: 2.9rem;
+
+        &--address {
+            width: 100%;
+            margin-bottom: 3.4rem;
+        }
+
+        &--code {
+            width: 22%;
+        }
+
+        &--city {
+            width: 33%;
+        }
+
+        &--country {
+            width: 33%;
+        }
     }
 
     &__label {
