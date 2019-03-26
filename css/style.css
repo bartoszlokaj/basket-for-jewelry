@@ -75,7 +75,10 @@ body {
 
 .form__group {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 2.9rem; }
+  .form__group--2 {
+    margin-bottom: 3.4rem; }
 
 .form__input {
   width: 47%;
@@ -84,11 +87,9 @@ body {
   font-family: inherit;
   background-color: #ffffff;
   border: 1px solid transparent;
-  border-bottom: 2px solid #7F7F7F;
-  margin-bottom: 2.9rem; }
+  border-bottom: 2px solid #7F7F7F; }
   .form__input--address {
-    width: 100%;
-    margin-bottom: 3.4rem; }
+    width: 100%; }
   .form__input--code {
     width: 22%; }
   .form__input--city {
