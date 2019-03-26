@@ -102,6 +102,15 @@ body {
         height: 0;
         border-top: 1px solid black;
         margin: 0 auto; }
+        @media (max-width: 75em) {
+          .progress__row--bottom .line {
+            width: 82%; } }
+        @media (max-width: 56.25em) {
+          .progress__row--bottom .line {
+            width: 75%; } }
+        @media (max-width: 48.56em) {
+          .progress__row--bottom .line {
+            width: 79%; } }
   .progress__text--middle {
     text-align: center;
     width: 39rem;
