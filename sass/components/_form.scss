@@ -1,0 +1,18 @@
+.order__form {
+    width: 49%;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 3.4rem 6.2rem;
+    border-radius: 2px;
+}
+
+.form {
+    &__group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__input {
+        width: 47%;
+    }
+}

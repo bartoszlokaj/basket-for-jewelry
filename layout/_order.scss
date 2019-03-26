@@ -6,13 +6,9 @@
         display: flex;
     }
 
-    &__form {
-        width: 49%;
-        height: 100vh;
-        background-color: aquamarine;
-    }
-
     &__basket {
         width: 55%;
+        padding: 3.4rem 6.2rem;
+        border-radius: 2px;
     }
 }
