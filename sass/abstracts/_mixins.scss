@@ -53,7 +53,7 @@ $breakpoint choices:
     @media (max-width: 90em) { @content };        //1440px
   }
 
-  @if $breakpoint == big-desktop {
+  @if $breakpoint == full-hd {
     @media (min-width: 112.5em) { @content };    //1800px
   }
 }
