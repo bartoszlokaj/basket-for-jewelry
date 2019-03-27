@@ -195,10 +195,17 @@ body {
     width: 55%;
     padding: 3.3rem 4.6rem;
     border-radius: 2px; }
-  .order__features {
+  .order .features {
     display: flex; }
-  .order .ring-img {
-    height: 13.7rem; }
+    .order .features .ring-img {
+      height: 13.7rem; }
+    .order .features__right {
+      font-family: 'Open sans', sans-serif;
+      margin-left: 1rem;
+      width: 76%; }
+      .order .features__right .features__details {
+        padding: 1.2rem .6rem 0.8rem .6rem;
+        border-bottom: 2px solid #7F7F7F; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);

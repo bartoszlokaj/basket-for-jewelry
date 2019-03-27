@@ -16,11 +16,24 @@
     border-radius: 2px;
   }
 
-  &__features {
+  .features {
     display: flex;
-  }
 
-  .ring-img {
-    height: 13.7rem;
+    .ring-img {
+      height: 13.7rem;
+    }
+
+    &__right {
+        font-family: 'Open sans', sans-serif;
+        margin-left: 1rem;
+        width: 76%;
+
+        .features__details {
+            padding: 1.2rem .6rem 0.8rem .6rem;
+            border-bottom: 2px solid $color-dark-gray;
+        }
+    }
+
+    
   }
 }
