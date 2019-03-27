@@ -109,7 +109,8 @@ body {
   border-bottom: 2px solid #7F7F7F; }
   .form__input--checkbox {
     width: 3rem;
-    margin-left: 1px; }
+    margin-left: 1px;
+    cursor: pointer; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 0rem 0.6rem rgba(0, 0, 0, 0.4); }
@@ -140,8 +141,7 @@ body {
   margin-top: .7rem;
   color: #4C4C4C;
   transition: all .2s; }
-  s
-.form__label--surname {
+  .form__label--surname {
     left: 54%; }
   .form__label--city {
     left: 29%; }
@@ -153,7 +153,8 @@ body {
     font-family: 'Open sans', sans-serif;
     letter-spacing: 1px;
     margin-left: 0.6rem;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    cursor: pointer; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
@@ -192,8 +193,12 @@ body {
     display: flex; }
   .order__basket {
     width: 55%;
-    padding: 3.4rem 6.2rem;
+    padding: 3.3rem 4.6rem;
     border-radius: 2px; }
+  .order__features {
+    display: flex; }
+  .order .ring-img {
+    height: 13.7rem; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);

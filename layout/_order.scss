@@ -1,17 +1,26 @@
 .order {
-    background-image: linear-gradient(
-                     $color-light-gray,
-                     $color-white,
-                     $color-light-gray);
-    padding: 0rem 9.3rem 4rem 9.3rem;
-    
-    &__row {
-        display: flex;
-    }
+  background-image: linear-gradient(
+    $color-light-gray,
+    $color-white,
+    $color-light-gray
+  );
+  padding: 0rem 9.3rem 4rem 9.3rem;
 
-    &__basket {
-        width: 55%;
-        padding: 3.4rem 6.2rem;
-        border-radius: 2px;
-    }
+  &__row {
+    display: flex;
+  }
+
+  &__basket {
+    width: 55%;
+    padding: 3.3rem 4.6rem;
+    border-radius: 2px;
+  }
+
+  &__features {
+    display: flex;
+  }
+
+  .ring-img {
+    height: 13.7rem;
+  }
 }

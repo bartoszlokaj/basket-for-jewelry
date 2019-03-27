@@ -57,6 +57,7 @@
         &--checkbox {
             width: 3rem;
             margin-left: 1px;
+            cursor: pointer;
         }
 
         &:focus {
@@ -110,7 +111,7 @@
         font-weight: bold;
         margin-top: .7rem;
         color: $color-dark-gray-2;
-        transition: all .2s;s
+        transition: all .2s;
 
         &--surname {
             left: 54%;
@@ -133,6 +134,7 @@
             letter-spacing: 1px;
             margin-left: 0.6rem;
             font-size: 1.3rem;
+            cursor: pointer;
         }
     }
 
