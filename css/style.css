@@ -218,6 +218,9 @@ body {
       border-bottom: 2px solid #cccccc; }
     .order .features__details:not(:first-child) {
       margin-left: 1.6rem; }
+    .order .features .item-header {
+      padding-bottom: 1.4rem;
+      border-bottom: 2px solid black; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);
