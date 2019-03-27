@@ -67,6 +67,14 @@ body {
   color: #343434;
   margin-bottom: 3rem; }
 
+.header-tertiary {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  color: #000000; }
+  .header-tertiary--basket {
+    margin-top: 5.4rem; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -200,12 +208,16 @@ body {
     .order .features .ring-img {
       height: 13.7rem; }
     .order .features__right {
-      font-family: 'Open sans', sans-serif;
+      font-family: "Open sans", sans-serif;
+      font-size: 1.4rem;
       margin-left: 1rem;
       width: 76%; }
-      .order .features__right .features__details {
-        padding: 1.2rem .6rem 0.8rem .6rem;
-        border-bottom: 2px solid #7F7F7F; }
+    .order .features__details-box {
+      padding: 1.3rem 0.6rem 0.6rem 0.6rem;
+      color: #000000;
+      border-bottom: 2px solid #cccccc; }
+    .order .features__details:not(:first-child) {
+      margin-left: 1.6rem; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);

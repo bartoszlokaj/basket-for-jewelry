@@ -24,16 +24,20 @@
     }
 
     &__right {
-        font-family: 'Open sans', sans-serif;
-        margin-left: 1rem;
-        width: 76%;
-
-        .features__details {
-            padding: 1.2rem .6rem 0.8rem .6rem;
-            border-bottom: 2px solid $color-dark-gray;
-        }
+      font-family: "Open sans", sans-serif;
+      font-size: 1.4rem;
+      margin-left: 1rem;
+      width: 76%;
     }
 
-    
+    &__details-box {
+      padding: 1.3rem 0.6rem 0.6rem 0.6rem;
+      color: $color-black;
+      border-bottom: 2px solid $color-light-gray-2;
+    }
+
+    &__details:not(:first-child) {
+        margin-left: 1.6rem;
+    }
   }
 }
