@@ -68,30 +68,53 @@ body {
   margin-bottom: 3rem; }
 
 .order__form {
-  width: 49%;
-  height: 100vh;
-  padding: 3.4rem 5.8rem;
-  border-radius: 2px; }
+  width: 51%;
+  padding: 5.4rem 6.8rem;
+  border-radius: 2px;
+  transform: translate(-1rem, -2rem);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+  background: #ffffff; }
 
 .form__group {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.9rem; }
+  margin-bottom: 2.9rem;
+  position: relative; }
   .form__group--2 {
     margin-bottom: 3.4rem; }
   .form__group--3 {
     margin-bottom: 3.4rem; }
+  .form__group--4 {
+    margin-bottom: 3.4rem; }
+  .form__group--5 {
+    margin-bottom: 3.5rem; }
+  .form__group--6 {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .9rem; }
+  .form__group--7 {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem; }
 
 .form__input {
   width: 47%;
   height: 3.9rem;
   font-size: 2.3rem;
   font-family: inherit;
+  color: #4C4C4C;
   background-color: #ffffff;
   border: 1px solid transparent;
+  border-radius: 2px;
   border-bottom: 2px solid #7F7F7F; }
-  .form__input--notReq {
-    border-bottom: 1px solid #7F7F7F; }
+  .form__input--checkbox {
+    width: 3rem;
+    margin-left: 1px; }
+  .form__input:focus {
+    outline: none;
+    box-shadow: 0 0rem 0.6rem rgba(0, 0, 0, 0.4); }
+  .form__input::-webkit-input-placeholder {
+    color: #A5A5A5; }
   .form__input--address {
     width: 100%; }
   .form__input--code {
@@ -102,11 +125,39 @@ body {
     width: 33%; }
   .form__input--phone {
     width: 29%; }
-  .form__input--mail {
+  .form__input--email {
     width: 65%; }
+  .form__input--comment {
+    width: 100%; }
 
 .form__label {
-  display: none; }
+  display: block;
+  position: absolute;
+  left: 0.5rem;
+  top: 3.4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: .7rem;
+  color: #4C4C4C;
+  transition: all .2s; }
+  s
+.form__label--surname {
+    left: 54%; }
+  .form__label--city {
+    left: 29%; }
+  .form__label--country {
+    left: 67%; }
+  .form__label--email {
+    left: 36%; }
+  .form__label--checkbox {
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 0.6rem;
+    font-size: 1.3rem; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden; }
 
 .header {
   width: 100%;
@@ -135,8 +186,8 @@ body {
         height: unset; } }
 
 .order {
-  height: 100vh;
-  padding: 0rem 9.3rem; }
+  background-image: linear-gradient(#f8f8f8, #ffffff, #f8f8f8);
+  padding: 0rem 9.3rem 4rem 9.3rem; }
   .order__row {
     display: flex; }
   .order__basket {

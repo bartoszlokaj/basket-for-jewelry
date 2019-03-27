@@ -101,7 +101,7 @@
                   placeholder="Nazwisko"
                   required
                 />
-                <label for="surname" class="form__label">Nazwisko</label>
+                <label for="surname" class="form__label form__label--surname">Nazwisko</label>
               </div>
 
               <div class="form__group form__group--2">
@@ -131,7 +131,7 @@
                   placeholder="Miejscowość"
                   required
                 />
-                <label for="city" class="form__label">Miejscowość</label>
+                <label for="city" class="form__label form__label--city">Miejscowość</label>
                 <input
                   type="text"
                   id="country"
@@ -139,24 +139,52 @@
                   placeholder="Polska"
                   required
                 />
-                <label for="country" class="form__label">Kraj</label>
+                <label for="country" class="form__label form__label--country">Kraj</label>
               </div>
 
               <div class="form__group form__group--4">
                   <input
                     type="text"
                     id="phone"
-                    class="form__input form__input--notReq form__input--phone"
+                    class="form__input form__input--phone"
                     placeholder="Nr telefonu"
                   />
                   <label for="Phone" class="form__label">Nr telefonu</label>
                   <input
-                    type="text"
-                    id="mail"
-                    class="form__input form__input--notReq form__input--mail"
+                    type="email"
+                    id="email"
+                    class="form__input form__input--email"
                     placeholder="Adres e-mail"
                   />
-                  <label for="mail" class="form__label">Adres e-mail</label>
+                  <label for="email" class="form__label form__label--email">Adres e-mail</label>
+                </div>
+
+                <div class="form__group form__group--5">
+                  <input
+                    type="text"
+                    id="comment"
+                    class="form__input form__input--comment"
+                    placeholder="Komentarz"
+                  />
+                  <label for="comment" class="form__label">Komentarz</label>
+                </div>
+
+                <div class="form__group form__group--6">
+                  <input
+                    type="checkbox"
+                    id="account"
+                    class="form__input form__input--checkbox"
+                  />
+                  <label for="account" class="form__label--checkbox">chcę założyć konto</label>
+                </div>
+
+                <div class="form__group form__group--7">
+                  <input
+                    type="checkbox"
+                    id="VAT"
+                    class="form__input form__input--checkbox"
+                  />
+                  <label for="VAT" class="form__label--checkbox">chcę fakturę VAT</label>
                 </div>
             </form>
           </div>
@@ -164,6 +192,11 @@
             <h2 class="header-secondary">
               Twoje zamówienie
             </h2>
+            <div class="order__features">
+              <div class="order__ring">
+                <img src="img/section_form/ring.jpg" alt="Ring image" class="ring-img">
+              </div>
+            </div>
           </div>
         </div>
       </section>

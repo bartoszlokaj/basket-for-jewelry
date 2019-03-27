@@ -1,6 +1,9 @@
 .order {
-    height: 100vh;
-    padding: 0rem 9.3rem;
+    background-image: linear-gradient(
+                     $color-light-gray,
+                     $color-white,
+                     $color-light-gray);
+    padding: 0rem 9.3rem 4rem 9.3rem;
     
     &__row {
         display: flex;
