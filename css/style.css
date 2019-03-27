@@ -66,6 +66,9 @@ body {
   letter-spacing: 2px;
   color: #343434;
   margin-bottom: 3rem; }
+  @media (min-width: 112.5em) {
+    .header-secondary {
+      letter-spacing: 1px; } }
 
 .header-tertiary {
   font-family: "Playfair Display", sans-serif;
