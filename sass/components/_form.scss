@@ -5,6 +5,10 @@
     transform: translate(-1rem, -2rem);
     box-shadow: 0 0 2rem rgba($color-black, 0.4);
     background: $color-light-gray;
+
+    @include respond(tab-port) {
+        width: 100%;
+    }
 }
 
 .form {

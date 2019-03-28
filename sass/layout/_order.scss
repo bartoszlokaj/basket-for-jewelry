@@ -8,12 +8,17 @@
 
   &__row {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__basket {
     width: 55%;
     padding: 3.3rem 4.6rem;
     border-radius: 2px;
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
   }
 
   .features {
@@ -88,7 +93,7 @@
         }
 
         &--6 {
-          padding-right: .7rem;
+          padding-right: 0.7rem;
         }
       }
     }
@@ -110,5 +115,28 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+  }
+
+  .delivery {
+    display: flex;
+    width: 98%;
+    padding-bottom: 0.9rem;
+    margin-top: 7rem;
+    border-bottom: 2px solid $color-black;
+    &__left {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &__cost {
+      margin-right: 0.8rem;
+    }
+
+    &__right {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 }

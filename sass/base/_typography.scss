@@ -97,3 +97,25 @@ body {
     }
   }
 }
+
+.delivery {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: $color-medium-gray-2;
+
+  &__right {
+    font-size: 2rem;
+    line-height: .7;
+    color: $color-medium-gray-1;
+  }
+
+  &__price {
+    font-size: 4rem;
+    line-height: 0;
+    margin-right: .5rem;
+  }
+
+  &__currency {
+    letter-spacing: 2px;
+  }
+}

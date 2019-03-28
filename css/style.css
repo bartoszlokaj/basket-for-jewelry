@@ -108,6 +108,21 @@ body {
     .item-value__price--currency {
       font-size: 2rem; }
 
+.delivery {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #717171; }
+  .delivery__right {
+    font-size: 2rem;
+    line-height: .7;
+    color: #858585; }
+  .delivery__price {
+    font-size: 4rem;
+    line-height: 0;
+    margin-right: .5rem; }
+  .delivery__currency {
+    letter-spacing: 2px; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -115,6 +130,9 @@ body {
   transform: translate(-1rem, -2rem);
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
   background: #f8f8f8; }
+  @media (max-width: 56.25em) {
+    .order__form {
+      width: 100%; } }
 
 .form__group {
   display: flex;
@@ -225,11 +243,15 @@ body {
   background-image: linear-gradient(#f8f8f8, #ffffff, #f8f8f8);
   padding: 0rem 9.3rem 4rem 9.3rem; }
   .order__row {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
   .order__basket {
     width: 55%;
     padding: 3.3rem 4.6rem;
     border-radius: 2px; }
+    @media (max-width: 56.25em) {
+      .order__basket {
+        width: 100%; } }
   .order .features {
     display: flex; }
     .order .features__ring {
@@ -275,7 +297,7 @@ body {
         .order .item-description .item-parameters__details--4 {
           padding-right: 2rem; }
         .order .item-description .item-parameters__details--6 {
-          padding-right: .7rem; }
+          padding-right: 0.7rem; }
     .order .item-description .item-remove {
       display: flex;
       align-items: center; }
@@ -287,6 +309,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline; }
+  .order .delivery {
+    display: flex;
+    width: 98%;
+    padding-bottom: 0.9rem;
+    margin-top: 7rem;
+    border-bottom: 2px solid #000000; }
+    .order .delivery__left {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+    .order .delivery__cost {
+      margin-right: 0.8rem; }
+    .order .delivery__right {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);
