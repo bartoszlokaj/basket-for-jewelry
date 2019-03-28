@@ -97,7 +97,8 @@ body {
   letter-spacing: 1px;
   color: #191919; }
   .item-value__size--text {
-    margin-right: .8rem; }
+    margin-right: .8rem;
+    margin-left: .5rem; }
   .item-value__size--size {
     font-weight: bold; }
   .item-value__price {
@@ -122,6 +123,18 @@ body {
     margin-right: .5rem; }
   .delivery__currency {
     letter-spacing: 2px; }
+
+.summary {
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  letter-spacing: 1px; }
+  .summary__numbers {
+    font-size: 7.7rem;
+    letter-spacing: 0; }
+  .summary__currency {
+    font-size: 3.4rem;
+    letter-spacing: 2px;
+    margin-left: 1rem; }
 
 .order__form {
   width: 51%;
@@ -279,7 +292,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 0.3rem; }
+    padding: 1.2rem 0.3rem .3rem .3rem; }
     .order .item-description .item-parameters {
       display: flex;
       justify-content: space-between;
@@ -315,7 +328,7 @@ body {
     display: flex;
     width: 98%;
     padding-bottom: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 7.8rem;
     border-bottom: 2px solid #000000; }
     .order .delivery__left {
       width: 50%;
@@ -327,6 +340,22 @@ body {
       width: 50%;
       display: flex;
       justify-content: flex-end; }
+  .order .summary {
+    display: flex;
+    align-items: baseline;
+    padding-right: .9rem;
+    margin-top: 1rem; }
+    .order .summary__left {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+    .order .summary__right {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+    .order .summary__currency {
+      display: flex;
+      align-items: flex-end; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);
