@@ -233,6 +233,17 @@ body {
   opacity: 0;
   visibility: hidden; }
 
+.contact {
+  padding: 22.6rem 0; }
+  .contact__row {
+    display: flex;
+    justify-content: center; }
+  .contact__help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+
 .header {
   width: 100%;
   height: 12.8rem;
