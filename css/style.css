@@ -87,7 +87,11 @@ body {
     letter-spacing: 1px; }
 
 .item-remove {
-  color: #949494; }
+  color: #949494;
+  text-decoration: none;
+  transition: color .2s ease; }
+  .item-remove:hover {
+    color: #4C4C4C; }
 
 .order__form {
   width: 51%;
