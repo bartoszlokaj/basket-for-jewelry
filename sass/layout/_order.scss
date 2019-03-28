@@ -28,6 +28,7 @@
     display: flex;
 
     &__ring {
+      margin-top: 8.6rem;
       display: flex;
       align-items: flex-end;
     }
@@ -49,8 +50,30 @@
       border-bottom: 2px solid $color-light-gray-2;
     }
 
-    &__details:not(:first-child) {
-      margin-left: 1.6rem;
+    &__details {
+      &--2 {
+        margin-left: 1.7rem;
+      }
+
+      &--3 {
+        margin-left: 1.6rem;
+      }
+
+      &--4 {
+        margin-left: 1.9rem;
+      }
+
+      &--5 {
+        margin-left: 1.6rem;
+      }
+
+      &--6 {
+        margin-left: 1.8rem;
+      }
+
+      &--7 {
+        margin-left: 1.8rem;
+      }
     }
 
     .item-header {
@@ -124,7 +147,7 @@
     display: flex;
     width: 98%;
     padding-bottom: 0.9rem;
-    margin-top: 7.8rem;
+    margin-top: 7.1rem;
     border-bottom: 2px solid $color-black;
     &__left {
       width: 50%;
@@ -145,7 +168,6 @@
 
   .summary {
     display: flex;
-    align-items: baseline;
     padding-right: .9rem;
     margin-top: 1rem;
 
@@ -153,6 +175,11 @@
       width: 50%;
       display: flex;
       justify-content: flex-end;
+    }
+
+    &__text {
+      padding-top: 5.2rem;
+      margin-right: .5rem;
     }
 
     &__right {
