@@ -150,7 +150,7 @@ body {
   .form__group--6 {
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: .9rem; }
+    margin-bottom: 0.9rem; }
   .form__group--7 {
     justify-content: flex-start;
     align-items: center;
@@ -197,9 +197,9 @@ body {
   top: 3.4rem;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   color: #4C4C4C;
-  transition: all .2s; }
+  transition: all 0.2s; }
   .form__label--surname {
     left: 54%; }
   .form__label--city {
@@ -209,7 +209,7 @@ body {
   .form__label--email {
     left: 36%; }
   .form__label--checkbox {
-    font-family: 'Open sans', sans-serif;
+    font-family: "Open sans", sans-serif;
     letter-spacing: 1px;
     margin-left: 0.6rem;
     font-size: 1.3rem;

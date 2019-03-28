@@ -1,149 +1,149 @@
 .order__form {
-    width: 51%;
-    padding: 5.4rem 6.8rem;
-    border-radius: 2px;
-    transform: translate(-1rem, -2rem);
-    box-shadow: 0 0 2rem rgba($color-black, 0.4);
-    background: $color-light-gray;
+  width: 51%;
+  padding: 5.4rem 6.8rem;
+  border-radius: 2px;
+  transform: translate(-1rem, -2rem);
+  box-shadow: 0 0 2rem rgba($color-black, 0.4);
+  background: $color-light-gray;
 
-    @include respond(tab-port) {
-        width: 100%;
-    }
+  @include respond(tab-port) {
+    width: 100%;
+  }
 }
 
 .form {
-    &__group {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 2.9rem;
-        position: relative;
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.9rem;
+    position: relative;
 
-        &--2 {
-            margin-bottom: 3.4rem;
-        }
-
-        &--3 {
-            margin-bottom: 3.4rem;
-        }
-
-        &--4 {
-            margin-bottom: 3.4rem;
-        }
-
-        &--5 {
-            margin-bottom: 3.5rem;
-        }
-
-        &--6 {
-            justify-content: flex-start;
-            align-items: center;
-            margin-bottom: .9rem;
-        }
-
-        &--7 {
-            justify-content: flex-start;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
+    &--2 {
+      margin-bottom: 3.4rem;
     }
 
-    &__input {
-        width: 47%;
-        height: 3.9rem;
-        font-size: 2.3rem;
-        font-family: inherit;
-        color: $color-dark-gray-2;
-        background-color: $color-light-gray;
-        border: 1px solid transparent;
-        border-radius: 2px;
-        border-bottom: 2px solid $color-dark-gray;
-
-        &--checkbox {
-            width: 3rem;
-            margin-left: 1px;
-            cursor: pointer;
-        }
-
-        &:focus {
-            outline: none;
-            box-shadow: 0 0.3rem 0.6rem rgba($color-black, 0.2);
-        }
-
-        // &:focus:invalid {
-        //     border-bottom: 2px solid $color;
-        // }
-    
-        &::-webkit-input-placeholder {
-            color: $color-light-gray-3;
-        }
-
-        &--address {
-            width: 100%;
-        }
-
-        &--code {
-            width: 22%;
-        }
-
-        &--city {
-            width: 33%;
-        }
-
-        &--country {
-            width: 33%;
-        }
-
-        &--phone {
-            width: 29%;
-        }
-
-        &--email {
-            width: 65%;
-        }
-
-        &--comment {
-            width: 100%;
-        }
+    &--3 {
+      margin-bottom: 3.4rem;
     }
 
-    &__label {
-        display: block;
-        position: absolute;
-        left: 0.5rem;
-        top: 3.4rem;
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-top: .7rem;
-        color: $color-dark-gray-2;
-        transition: all .2s;
-
-        &--surname {
-            left: 54%;
-        }
-
-        &--city {
-            left: 29%;
-        }
-
-        &--country {
-            left: 67%;
-        }
-
-        &--email {
-            left: 36%;
-        }
-
-        &--checkbox {
-            font-family: 'Open sans', sans-serif;
-            letter-spacing: 1px;
-            margin-left: 0.6rem;
-            font-size: 1.3rem;
-            cursor: pointer;
-        }
+    &--4 {
+      margin-bottom: 3.4rem;
     }
 
-    &__input:placeholder-shown + &__label {
-        opacity: 0;
-        visibility: hidden;
+    &--5 {
+      margin-bottom: 3.5rem;
     }
+
+    &--6 {
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 0.9rem;
+    }
+
+    &--7 {
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__input {
+    width: 47%;
+    height: 3.9rem;
+    font-size: 2.3rem;
+    font-family: inherit;
+    color: $color-dark-gray-2;
+    background-color: $color-light-gray;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    border-bottom: 2px solid $color-dark-gray;
+
+    &--checkbox {
+      width: 3rem;
+      margin-left: 1px;
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0.3rem 0.6rem rgba($color-black, 0.2);
+    }
+
+    // &:focus:invalid {
+    //     border-bottom: 2px solid $color;
+    // }
+
+    &::-webkit-input-placeholder {
+      color: $color-light-gray-3;
+    }
+
+    &--address {
+      width: 100%;
+    }
+
+    &--code {
+      width: 22%;
+    }
+
+    &--city {
+      width: 33%;
+    }
+
+    &--country {
+      width: 33%;
+    }
+
+    &--phone {
+      width: 29%;
+    }
+
+    &--email {
+      width: 65%;
+    }
+
+    &--comment {
+      width: 100%;
+    }
+  }
+
+  &__label {
+    display: block;
+    position: absolute;
+    left: 0.5rem;
+    top: 3.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+    color: $color-dark-gray-2;
+    transition: all 0.2s;
+
+    &--surname {
+      left: 54%;
+    }
+
+    &--city {
+      left: 29%;
+    }
+
+    &--country {
+      left: 67%;
+    }
+
+    &--email {
+      left: 36%;
+    }
+
+    &--checkbox {
+      font-family: "Open sans", sans-serif;
+      letter-spacing: 1px;
+      margin-left: 0.6rem;
+      font-size: 1.3rem;
+      cursor: pointer;
+    }
+  }
+
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
