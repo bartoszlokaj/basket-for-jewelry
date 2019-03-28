@@ -93,6 +93,21 @@ body {
   .item-remove:hover {
     color: #4C4C4C; }
 
+.item-value {
+  letter-spacing: 1px;
+  color: #191919; }
+  .item-value__size--text {
+    margin-right: .8rem; }
+  .item-value__size--size {
+    font-weight: bold; }
+  .item-value__price {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3rem; }
+    .item-value__price--numbers {
+      font-size: 3rem; }
+    .item-value__price--currency {
+      font-size: 2rem; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -268,6 +283,10 @@ body {
         margin-right: 1.2rem; }
       .order .item-description .item-remove--x {
         font-size: 1.7rem; }
+  .order .item-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);

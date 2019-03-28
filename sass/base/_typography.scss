@@ -69,3 +69,31 @@ body {
     color: $color-dark-gray-2;
   }
 }
+
+.item-value {
+  letter-spacing: 1px;
+  color: $color-dark-gray-4;
+
+  &__size {
+    &--text {
+      margin-right: .8rem;
+    }
+
+    &--size {
+      font-weight: bold;
+    }
+  }
+
+  &__price {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3rem;
+
+    &--numbers {
+      font-size: 3rem;
+    }
+
+    &--currency {
+      font-size: 2rem;
+    }
+  }
+}
