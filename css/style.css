@@ -243,8 +243,10 @@ body {
   background-image: linear-gradient(#f8f8f8, #ffffff, #f8f8f8);
   padding: 0rem 9.3rem 4rem 9.3rem; }
   .order__row {
-    display: flex;
-    flex-wrap: wrap; }
+    display: flex; }
+    @media (max-width: 56.25em) {
+      .order__row {
+        flex-wrap: wrap; } }
   .order__basket {
     width: 55%;
     padding: 3.3rem 4.6rem;
