@@ -231,7 +231,7 @@ body {
   .order .item-description {
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem .3rem; }
+    padding: 1.3rem 0.3rem; }
     .order .item-description .item-parameters {
       display: flex;
       justify-content: space-between;

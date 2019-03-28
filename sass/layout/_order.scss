@@ -54,7 +54,7 @@
   .item-description {
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem .3rem;
+    padding: 1.3rem 0.3rem;
 
     .item-parameters {
       display: flex;
@@ -63,8 +63,8 @@
 
       &__details {
         min-width: 5.6rem;
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
       }
     }
   }
