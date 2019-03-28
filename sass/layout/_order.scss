@@ -19,6 +19,11 @@
   .features {
     display: flex;
 
+    &__ring {
+      display: flex;
+      align-items: flex-end;
+    }
+
     .ring-img {
       height: 13.7rem;
     }
@@ -37,12 +42,12 @@
     }
 
     &__details:not(:first-child) {
-        margin-left: 1.6rem;
+      margin-left: 1.6rem;
     }
 
     .item-header {
-        padding-bottom: 1.4rem;
-    border-bottom: 2px solid black;
+      padding-bottom: 1.4rem;
+      border-bottom: 2px solid $color-light-gray-1;
     }
   }
 }

@@ -202,6 +202,9 @@ body {
     border-radius: 2px; }
   .order .features {
     display: flex; }
+    .order .features__ring {
+      display: flex;
+      align-items: flex-end; }
     .order .features .ring-img {
       height: 13.7rem; }
     .order .features__right {
@@ -217,7 +220,7 @@ body {
       margin-left: 1.6rem; }
     .order .features .item-header {
       padding-bottom: 1.4rem;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid #e5e5e5; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);
