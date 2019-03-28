@@ -78,6 +78,13 @@ body {
   .header-tertiary--basket {
     margin-top: 5.4rem; }
 
+.item-parameters {
+  font-size: 1.3rem; }
+  .item-parameters__details--bold {
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 1px; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -221,6 +228,18 @@ body {
     .order .features .item-header {
       padding-bottom: 1.4rem;
       border-bottom: 2px solid #e5e5e5; }
+  .order .item-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem .3rem; }
+    .order .item-description .item-parameters {
+      display: flex;
+      justify-content: space-between;
+      width: 74%; }
+      .order .item-description .item-parameters__details {
+        min-width: 5.6rem;
+        display: flex;
+        justify-content: center; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);

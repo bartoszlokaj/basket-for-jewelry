@@ -50,4 +50,22 @@
       border-bottom: 2px solid $color-light-gray-1;
     }
   }
+
+  .item-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem .3rem;
+
+    .item-parameters {
+      display: flex;
+      justify-content: space-between;
+      width: 74%;
+
+      &__details {
+        min-width: 5.6rem;
+    display: flex;
+    justify-content: center;
+      }
+    }
+  }
 }
