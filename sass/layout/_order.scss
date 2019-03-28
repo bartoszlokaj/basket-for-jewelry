@@ -65,6 +65,30 @@
         min-width: 5.6rem;
         display: flex;
         justify-content: center;
+
+        &--bold {
+          justify-content: flex-start;
+        }
+
+        &--1 {
+          padding-right: 1rem;
+        }
+
+        &--2 {
+          padding-right: 2rem;
+        }
+
+        &--3 {
+          padding-right: 3rem;
+        }
+
+        &--4 {
+          padding-right: 2rem;
+        }
+
+        &--6 {
+          padding-right: .7rem;
+        }
       }
     }
   }

@@ -240,6 +240,18 @@ body {
         min-width: 5.6rem;
         display: flex;
         justify-content: center; }
+        .order .item-description .item-parameters__details--bold {
+          justify-content: flex-start; }
+        .order .item-description .item-parameters__details--1 {
+          padding-right: 1rem; }
+        .order .item-description .item-parameters__details--2 {
+          padding-right: 2rem; }
+        .order .item-description .item-parameters__details--3 {
+          padding-right: 3rem; }
+        .order .item-description .item-parameters__details--4 {
+          padding-right: 2rem; }
+        .order .item-description .item-parameters__details--6 {
+          padding-right: .7rem; }
 
 .progress {
   background-image: linear-gradient(#f8f8f8, #ffffff);
