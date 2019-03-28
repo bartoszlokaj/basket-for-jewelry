@@ -54,7 +54,8 @@
   .item-description {
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem 0.3rem;
+    align-items: center;
+    padding: 1.2rem 0.3rem;
 
     .item-parameters {
       display: flex;
@@ -89,6 +90,18 @@
         &--6 {
           padding-right: .7rem;
         }
+      }
+    }
+
+    .item-remove {
+      display: flex;
+      align-items: center;
+      &--text {
+        margin-right: 1.2rem;
+      }
+
+      &--x {
+        font-size: 1.7rem;
       }
     }
   }

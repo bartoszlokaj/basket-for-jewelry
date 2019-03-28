@@ -51,10 +51,15 @@ body {
 
 .item-parameters {
   font-size: 1.3rem;
+  color: $color-dark-gray-1;
 
   &__details--bold {
     font-weight: bold;
     font-size: 1.4rem;
     letter-spacing: 1px;
   }
+}
+
+.item-remove {
+  color: $color-medium-gray;
 }
