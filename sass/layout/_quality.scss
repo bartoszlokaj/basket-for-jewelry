@@ -6,8 +6,13 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 3.4rem 1.9rem 3.4rem 0.4rem;
+    min-height: 12.5rem;
+    padding: 0 1.9rem 0 0.4rem;
     border-top: 1px solid $color-light-gray-1;
+
+    &--2 {
+      padding-left: 1rem;
+    }
 
     &:last-child {
       border-bottom: 1px solid $color-light-gray-1;
@@ -20,6 +25,10 @@
 
     &-img {
       height: 5.5rem;
+
+      &--clock {
+        height: 6.2rem;
+      }
     }
 
     &-arrow {
