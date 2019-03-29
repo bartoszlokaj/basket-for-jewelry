@@ -165,6 +165,10 @@ body {
 .contact__tile--phone {
   font-family: 'playfair_displayregular'; }
 
+.quality__panel-text {
+  font-size: 2.7rem;
+  margin-left: 2rem; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -465,3 +469,22 @@ body {
     position: relative;
     z-index: 1;
     background: #ffffff; }
+
+.quality {
+  padding: 6.7rem 15rem; }
+  .quality__panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.4rem 1.9rem 3.4rem 0.4rem;
+    border-top: 1px solid #e5e5e5; }
+    .quality__panel:last-child {
+      border-bottom: 1px solid #e5e5e5; }
+    .quality__panel-icon {
+      display: flex;
+      align-items: center; }
+    .quality__panel-img {
+      height: 5.5rem; }
+    .quality__panel-arrow {
+      height: 1rem; }

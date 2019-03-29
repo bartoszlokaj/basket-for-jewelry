@@ -1,0 +1,29 @@
+.quality {
+  padding: 6.7rem 15rem;
+
+  &__panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.4rem 1.9rem 3.4rem 0.4rem;
+    border-top: 1px solid $color-light-gray-1;
+
+    &:last-child {
+      border-bottom: 1px solid $color-light-gray-1;
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    &-img {
+      height: 5.5rem;
+    }
+
+    &-arrow {
+      height: 1rem;
+    }
+  }
+}
