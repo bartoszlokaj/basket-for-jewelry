@@ -40,6 +40,12 @@ body {
   box-sizing: border-box;
   background-color: #ffffff; }
 
+@font-face {
+  font-family: 'playfair_displayregular';
+  src: url("../fonts/playfair-display_pl.allfont.net_1oldstyle.woff2") format("woff2"), url("../fonts/playfair-display_pl.allfont.net_1oldstyle.woff") format("woff"), url("../fonts/playfair-display_pl.allfont.net_1oldstyle.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: "Playfair Display", sans-serif;
   font-weight: 400;
@@ -82,6 +88,12 @@ body {
   .header-tertiary--contact {
     text-transform: uppercase;
     letter-spacing: 1px; }
+  .header-tertiary--tile {
+    font-size: 3.1rem;
+    letter-spacing: 2px;
+    margin-top: 1.9rem; }
+  .header-tertiary--phone {
+    font-family: 'playfair_displayregular'; }
 
 .item-parameters {
   font-size: 1.3rem;
@@ -107,7 +119,7 @@ body {
   .item-value__size--size {
     font-weight: bold; }
   .item-value__price {
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'playfair_displayregular', sans-serif;
     font-size: 3rem; }
     .item-value__price--numbers {
       font-size: 3rem; }
@@ -123,6 +135,7 @@ body {
     line-height: .7;
     color: #858585; }
   .delivery__price {
+    font-family: 'playfair_displayregular', sans-serif;
     font-size: 4rem;
     line-height: 0;
     margin-right: .5rem; }
@@ -135,12 +148,22 @@ body {
   letter-spacing: 1px;
   color: #343434; }
   .summary__numbers {
+    font-family: 'playfair_displayregular';
     font-size: 7.7rem;
     letter-spacing: 0; }
   .summary__currency {
     font-size: 3.4rem;
     letter-spacing: 2px;
     margin-left: 1rem; }
+
+.contact__info {
+  font-size: 1.6rem;
+  margin-top: 2.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.contact__tile--phone {
+  font-family: 'playfair_displayregular'; }
 
 .order__form {
   width: 51%;
@@ -239,15 +262,27 @@ body {
   visibility: hidden; }
 
 .contact {
-  padding: 22.6rem 0; }
+  padding: 22.6rem 12.9rem; }
   .contact__row {
     display: flex;
     justify-content: center; }
+    .contact__row--2 {
+      justify-content: space-around;
+      margin-top: 10rem; }
   .contact__help {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; }
+  .contact__tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contact__icon {
+    height: 3.4rem; }
+    .contact__icon--email {
+      height: 2.7rem; }
 
 .header {
   width: 100%;
@@ -370,6 +405,7 @@ body {
       justify-content: flex-end; }
   .order .summary {
     display: flex;
+    align-items: baseline;
     padding-right: .9rem;
     margin-top: 1rem; }
     .order .summary__left {
@@ -377,11 +413,11 @@ body {
       display: flex;
       justify-content: flex-end; }
     .order .summary__text {
-      padding-top: 5.2rem;
       margin-right: .5rem; }
     .order .summary__right {
       width: 50%;
       display: flex;
+      align-items: baseline;
       justify-content: flex-end; }
     .order .summary__currency {
       display: flex;

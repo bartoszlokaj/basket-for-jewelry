@@ -1,9 +1,14 @@
 .contact {
-    padding: 22.6rem 0;
+    padding: 22.6rem 12.9rem;
 
     &__row {
         display: flex;
         justify-content: center;
+
+        &--2 {
+            justify-content: space-around;
+            margin-top: 10rem;
+        }
     }
 
     &__help {
@@ -11,5 +16,20 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    &__tile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        height: 3.4rem;
+
+        &--email {
+            height: 2.7rem;
+        }
     }
 }
