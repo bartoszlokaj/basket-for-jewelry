@@ -504,6 +504,8 @@ body {
     .quality__panel-img {
       height: 6rem; }
       .quality__panel-img--clock {
-        height: 6.2rem; }
+        height: 6.5rem; }
+      .quality__panel-img--callendar {
+        height: 5.1rem; }
     .quality__panel-arrow {
       height: 1rem; }
