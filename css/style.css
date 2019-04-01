@@ -185,6 +185,12 @@ body {
   .quality__panel-text--number {
     font-family: 'playfair_displayregular'; }
 
+.nav__item--header {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem; }
+
 .order__form {
   width: 51%;
   padding: 5.4rem 6.8rem;
@@ -332,6 +338,13 @@ body {
 
 .navigation {
   padding: 3rem 4rem; }
+  .navigation .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .navigation .nav__list {
+      flex-grow: 1;
+      list-style-type: none; }
 
 .order {
   background-image: linear-gradient(#f8f8f8 -45%, #ffffff, #f8f8f8 127%);

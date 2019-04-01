@@ -213,3 +213,12 @@ body {
     font-family: 'playfair_displayregular';
   }
 }
+
+.nav__item {
+  &--header {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
