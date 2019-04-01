@@ -64,6 +64,10 @@ body {
     letter-spacing: 1px;
   }
 
+  &--number {
+    font-size: 2.5rem;
+  }
+
   &--tile {
     font-size: 3.1rem;
     letter-spacing: 2px;
@@ -72,6 +76,10 @@ body {
 
   &--phone {
     font-family: 'playfair_displayregular';
+  }
+
+  &--email {
+    margin-top: 2.2rem;
   }
 }
 
@@ -156,7 +164,7 @@ body {
 
   &__numbers {
     font-family: 'playfair_displayregular';
-    font-size: 7.7rem;
+    font-size: 7rem;
     letter-spacing: 0;
   }
 
@@ -168,10 +176,13 @@ body {
 }
 
 .contact__info {
-  font-size: 1.6rem;
-  margin-top: 2.2rem;
-  letter-spacing: 1px;
+  font-size: 1.9rem;
+  margin-top: 2.4rem;
   text-transform: uppercase;
+
+  &--phone {
+    letter-spacing: 1px;
+  }
 }
 
 .contact__tile--phone {
@@ -181,4 +192,8 @@ body {
 .quality__panel-text {
   font-size: 2.7rem;
   margin-left: 2rem;
+
+  &--number {
+    font-family: 'playfair_displayregular';
+  }
 }
