@@ -191,7 +191,7 @@ body {
     text-transform: uppercase;
     font-family: sans-serif;
     font-size: 2rem;
-    margin-bottom: 2rem; }
+    margin-bottom: .5rem; }
 
 .order__form {
   width: 51%;
@@ -350,7 +350,7 @@ body {
     .navigation .nav__link {
       text-transform: none; }
     .navigation .nav__item {
-      padding: 1rem 0; }
+      padding: .5rem 0; }
 
 .order {
   background-image: linear-gradient(#f8f8f8 -45%, #ffffff, #f8f8f8 127%);
