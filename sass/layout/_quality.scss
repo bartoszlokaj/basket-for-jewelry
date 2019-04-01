@@ -11,7 +11,7 @@
     border-top: 1px solid $color-light-gray-1;
 
     &--2 {
-      padding-left: 1rem;
+      padding-left: 1.4rem;
     }
 
     &--4 {
@@ -20,6 +20,10 @@
 
     &--5 {
       padding-left: 1.4rem;
+    }
+
+    &--6 {
+      padding-left: 1.5rem;
     }
 
     &:last-child {
@@ -48,6 +52,10 @@
 
       &--bag {
         height: 6.2rem;
+      }
+
+      &--cert {
+        height: 6.4rem;
       }
     }
 

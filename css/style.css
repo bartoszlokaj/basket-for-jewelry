@@ -171,10 +171,15 @@ body {
   font-family: 'playfair_displayregular'; }
 
 .quality__panel-text {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
   margin-left: 2rem; }
+  .quality__panel-text--4 {
+    margin-left: 1.7rem; }
   .quality__panel-text--5 {
-    margin-left: 3rem; }
+    margin-left: 3.2rem; }
+  .quality__panel-text--6 {
+    margin-left: 2.8rem; }
   .quality__panel-text--number {
     font-family: 'playfair_displayregular'; }
 
@@ -497,11 +502,13 @@ body {
     padding: 0 1.9rem 0 0.8rem;
     border-top: 1px solid #e5e5e5; }
     .quality__panel--2 {
-      padding-left: 1rem; }
+      padding-left: 1.4rem; }
     .quality__panel--4 {
       padding-left: .2rem; }
     .quality__panel--5 {
       padding-left: 1.4rem; }
+    .quality__panel--6 {
+      padding-left: 1.5rem; }
     .quality__panel:last-child {
       border-bottom: 1px solid #e5e5e5; }
     .quality__panel-icon {
@@ -517,5 +524,7 @@ body {
         height: 7.3rem; }
       .quality__panel-img--bag {
         height: 6.2rem; }
+      .quality__panel-img--cert {
+        height: 6.4rem; }
     .quality__panel-arrow {
       height: 1rem; }

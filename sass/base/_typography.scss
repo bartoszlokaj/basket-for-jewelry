@@ -190,11 +190,20 @@ body {
 }
 
 .quality__panel-text {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
   margin-left: 2rem;
 
+  &--4 {
+    margin-left: 1.7rem;
+  }
+
   &--5 {
-    margin-left: 3rem;
+    margin-left: 3.2rem;
+  }
+
+  &--6 {
+    margin-left: 2.8rem;
   }
   &--number {
     font-family: 'playfair_displayregular';
