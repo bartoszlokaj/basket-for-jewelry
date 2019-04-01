@@ -173,6 +173,8 @@ body {
 .quality__panel-text {
   font-size: 2.8rem;
   margin-left: 2rem; }
+  .quality__panel-text--5 {
+    margin-left: 3rem; }
   .quality__panel-text--number {
     font-family: 'playfair_displayregular'; }
 
@@ -498,6 +500,8 @@ body {
       padding-left: 1rem; }
     .quality__panel--4 {
       padding-left: .2rem; }
+    .quality__panel--5 {
+      padding-left: 1.4rem; }
     .quality__panel:last-child {
       border-bottom: 1px solid #e5e5e5; }
     .quality__panel-icon {
@@ -511,5 +515,7 @@ body {
         height: 5.1rem; }
       .quality__panel-img--corection {
         height: 7.3rem; }
+      .quality__panel-img--bag {
+        height: 6.2rem; }
     .quality__panel-arrow {
       height: 1rem; }

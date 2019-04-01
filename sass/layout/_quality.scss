@@ -18,6 +18,10 @@
       padding-left: .2rem;
     }
 
+    &--5 {
+      padding-left: 1.4rem;
+    }
+
     &:last-child {
       border-bottom: 1px solid $color-light-gray-1;
     }
@@ -40,6 +44,10 @@
 
       &--corection {
         height: 7.3rem;
+      }
+
+      &--bag {
+        height: 6.2rem;
       }
     }
 
