@@ -1,13 +1,13 @@
 .quality {
-  padding: 6.7rem 15rem;
+  padding: 7.4rem 15.3rem;
 
   &__panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 12.5rem;
-    padding: 0 1.9rem 0 0.4rem;
+    min-height: 13.1rem;
+    padding: 0 1.9rem 0 0.8rem;
     border-top: 1px solid $color-light-gray-1;
 
     &--2 {
@@ -24,7 +24,7 @@
     }
 
     &-img {
-      height: 5.5rem;
+      height: 6rem;
 
       &--clock {
         height: 6.2rem;

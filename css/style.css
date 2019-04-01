@@ -171,7 +171,7 @@ body {
   font-family: 'playfair_displayregular'; }
 
 .quality__panel-text {
-  font-size: 2.7rem;
+  font-size: 2.8rem;
   margin-left: 2rem; }
   .quality__panel-text--number {
     font-family: 'playfair_displayregular'; }
@@ -485,14 +485,14 @@ body {
     background: #ffffff; }
 
 .quality {
-  padding: 6.7rem 15rem; }
+  padding: 7.4rem 15.3rem; }
   .quality__panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 12.5rem;
-    padding: 0 1.9rem 0 0.4rem;
+    min-height: 13.1rem;
+    padding: 0 1.9rem 0 0.8rem;
     border-top: 1px solid #e5e5e5; }
     .quality__panel--2 {
       padding-left: 1rem; }
@@ -502,7 +502,7 @@ body {
       display: flex;
       align-items: center; }
     .quality__panel-img {
-      height: 5.5rem; }
+      height: 6rem; }
       .quality__panel-img--clock {
         height: 6.2rem; }
     .quality__panel-arrow {
