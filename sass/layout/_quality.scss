@@ -1,5 +1,9 @@
 .quality {
   padding: 7.4rem 15.3rem;
+  background-image: linear-gradient(
+    $color-white 76%,
+    $color-light-gray
+  );
 
   &__panel {
     display: flex;
