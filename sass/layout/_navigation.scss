@@ -4,11 +4,19 @@
     .nav {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: baseline;
 
         &__list {
             flex-grow: 1;
             list-style-type: none;
+        }
+
+        &__link {
+            text-transform: none;
+        }
+
+        &__item {
+            padding: 1rem 0;
         }
     }
 
