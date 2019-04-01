@@ -330,6 +330,9 @@ body {
   .header__img {
     height: 7.4rem; }
 
+.navigation {
+  padding: 3rem 4rem; }
+
 .order {
   background-image: linear-gradient(#f8f8f8 -45%, #ffffff, #f8f8f8 127%);
   padding: 0rem 9.3rem 4rem 9.3rem; }
