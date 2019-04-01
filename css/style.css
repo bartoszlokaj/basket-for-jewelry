@@ -496,6 +496,8 @@ body {
     border-top: 1px solid #e5e5e5; }
     .quality__panel--2 {
       padding-left: 1rem; }
+    .quality__panel--4 {
+      padding-left: .2rem; }
     .quality__panel:last-child {
       border-bottom: 1px solid #e5e5e5; }
     .quality__panel-icon {
@@ -507,5 +509,7 @@ body {
         height: 6.5rem; }
       .quality__panel-img--callendar {
         height: 5.1rem; }
+      .quality__panel-img--corection {
+        height: 7.3rem; }
     .quality__panel-arrow {
       height: 1rem; }
