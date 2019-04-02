@@ -1,46 +1,59 @@
 .navigation-bottom {
-    padding: 3rem 16rem;
-    background-image: linear-gradient(
-        $color-light-gray,
-        $color-white 
-  );
+  padding: 3rem 16rem;
+  background-image: linear-gradient($color-light-gray, $color-white);
 
-    &__row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 3rem 0;
+  &__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    width: 100%;
+  }
 
-        &--1 {
-            margin: 0 auto;
-            width: 60%;
-        }
+  .badge {
+      margin: 0 2rem;
+  }
+
+  &__img {
+    &--5 {
+      height: 6rem;
     }
 
-    .nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-        width: 100%;
-
-        &__list {
-            width: 25%;
-            list-style-type: none;
-            padding: 0 3rem 0 1rem;
-        }
-
-        &__link {
-            text-transform: none;
-        }
-
-        &__item {
-            padding-bottom: 1.2rem;
-
-            &--header {
-                padding-bottom: 1.3rem;
-            }
-        }
+    &--6 {
+      height: 4.8rem;
     }
 
+    &--7 {
+      height: 2.1rem;
+    }
 
+    &--8 {
+      height: 2.5rem;
+    }
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+
+    &__list {
+      width: 25%;
+      list-style-type: none;
+      padding: 0 3rem 0 1rem;
+    }
+
+    &__link {
+      text-transform: none;
+    }
+
+    &__item {
+      padding-bottom: 1.2rem;
+
+      &--header {
+        padding-bottom: 1.3rem;
+      }
+    }
+  }
 }

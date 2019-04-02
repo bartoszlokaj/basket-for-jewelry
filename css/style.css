@@ -353,12 +353,20 @@ body {
   background-image: linear-gradient(#f8f8f8, #ffffff); }
   .navigation-bottom__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 3rem 0; }
-    .navigation-bottom__row--1 {
-      margin: 0 auto;
-      width: 60%; }
+    padding: 3rem 0;
+    width: 100%; }
+  .navigation-bottom .badge {
+    margin: 0 2rem; }
+  .navigation-bottom__img--5 {
+    height: 6rem; }
+  .navigation-bottom__img--6 {
+    height: 4.8rem; }
+  .navigation-bottom__img--7 {
+    height: 2.1rem; }
+  .navigation-bottom__img--8 {
+    height: 2.5rem; }
   .navigation-bottom .nav {
     display: flex;
     justify-content: space-around;
