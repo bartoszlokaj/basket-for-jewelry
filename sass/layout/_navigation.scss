@@ -60,4 +60,15 @@
       }
     }
   }
+
+  .scroll-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    &__img {
+        height: 4.2rem;
+    }
+  }
 }

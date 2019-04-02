@@ -20,6 +20,8 @@ html {
   @include respond(full-hd) {
     font-size: 75%; //1rem = 12px
   }
+
+  scroll-behavior: smooth;
 }
 
 body {
