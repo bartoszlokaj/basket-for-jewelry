@@ -192,7 +192,6 @@ body {
 
 .nav__item--header {
   text-transform: uppercase;
-  font-size: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 600; }
 
@@ -201,13 +200,8 @@ body {
 .nav__link:visited {
   font-family: "Josefin Sans", sans-serif;
   color: #000000;
-  text-decoration: none; }
-
-.nav__link--header {
-  text-transform: uppercase;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
-  font-weight: 600; }
+  text-decoration: none; }
 
 .order__form {
   width: 51%;
@@ -355,18 +349,20 @@ body {
     height: 7.4rem; }
 
 .navigation-bottom {
-  padding: 3rem 4rem; }
+  padding: 3rem 18rem; }
   .navigation-bottom .nav {
     display: flex;
     justify-content: space-around;
     align-items: baseline; }
     .navigation-bottom .nav__list {
-      flex-grow: 1;
+      width: 25%;
       list-style-type: none; }
     .navigation-bottom .nav__link {
       text-transform: none; }
     .navigation-bottom .nav__item {
-      padding: .5rem 0; }
+      padding-bottom: 1.2rem; }
+      .navigation-bottom .nav__item--header {
+        padding-bottom: 1.3rem; }
 
 .order {
   background-image: linear-gradient(#f8f8f8 -45%, #ffffff, #f8f8f8 127%);
