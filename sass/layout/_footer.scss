@@ -1,9 +1,19 @@
 .footer {
-    padding: 3.5rem 0 4.5rem;
+    padding: 3.5rem 0 0 0;
     &__row {
         display: flex;
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 4.4rem;
+    }
+
+    .rodo {
+        padding: 1.8rem;
+        background-color: $color-light-gray;
+        
+        &__text {
+            width: 80%;
+        }
     }
 }
