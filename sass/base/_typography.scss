@@ -1,8 +1,11 @@
 @font-face {
-  font-family: 'playfair_displayregular';
-  src: url('../fonts/playfair-display_pl.allfont.net_1oldstyle.woff2') format('woff2'),
-       url('../fonts/playfair-display_pl.allfont.net_1oldstyle.woff') format('woff'),
-       url('../fonts/playfair-display_pl.allfont.net_1oldstyle.ttf') format('truetype');
+  font-family: "playfair_displayregular";
+  src: url("../fonts/playfair-display_pl.allfont.net_1oldstyle.woff2")
+      format("woff2"),
+    url("../fonts/playfair-display_pl.allfont.net_1oldstyle.woff")
+      format("woff"),
+    url("../fonts/playfair-display_pl.allfont.net_1oldstyle.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +20,7 @@ body {
 .link {
   &:link,
   &:visited {
-      font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: $color-black;
     text-transform: uppercase;
     text-decoration: none;
@@ -79,7 +82,7 @@ body {
   }
 
   &--phone {
-    font-family: 'playfair_displayregular';
+    font-family: "playfair_displayregular";
   }
 
   &--email {
@@ -101,7 +104,7 @@ body {
 .item-remove {
   color: $color-medium-gray;
   text-decoration: none;
-  transition: color .2s ease;
+  transition: color 0.2s ease;
 
   &:hover {
     color: $color-dark-gray-2;
@@ -124,7 +127,7 @@ body {
   }
 
   &__price {
-    font-family: 'playfair_displayregular', sans-serif;
+    font-family: "playfair_displayregular", sans-serif;
     font-size: 3rem;
 
     &--numbers {
@@ -144,15 +147,15 @@ body {
 
   &__right {
     font-size: 2rem;
-    line-height: .7;
+    line-height: 0.7;
     color: $color-medium-gray-1;
   }
 
   &__price {
-    font-family: 'playfair_displayregular', sans-serif;
+    font-family: "playfair_displayregular", sans-serif;
     font-size: 4rem;
     line-height: 0;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   &__currency {
@@ -167,7 +170,7 @@ body {
   color: $color-dark-gray-3;
 
   &__numbers {
-    font-family: 'playfair_displayregular';
+    font-family: "playfair_displayregular";
     font-size: 7rem;
     letter-spacing: 0;
   }
@@ -190,7 +193,7 @@ body {
 }
 
 .contact__tile--phone {
-  font-family: 'playfair_displayregular';
+  font-family: "playfair_displayregular";
 }
 
 .quality__panel-text {
@@ -210,12 +213,12 @@ body {
     margin-left: 2.8rem;
   }
   &--number {
-    font-family: 'playfair_displayregular';
+    font-family: "playfair_displayregular";
   }
 }
 
 .navigation-bottom {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -223,24 +226,22 @@ body {
 .nav__item {
   &--header {
     text-transform: uppercase;
-  font-size: 2rem;
-  margin-bottom: .5rem;
-  font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
   }
 }
 
 .nav__link,
 .nav__link:link,
 .nav__link:visited {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: $color-black;
   text-decoration: none;
-
-  
 }
 .nav__link--header {
   text-transform: uppercase;
   font-size: 2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
 }
