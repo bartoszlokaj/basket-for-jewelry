@@ -1,5 +1,15 @@
 .navigation-bottom {
-    padding: 3rem 18rem;
+    padding: 3rem 16rem;
+    background-image: linear-gradient(
+        $color-light-gray,
+        $color-white 
+  );
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .nav {
         display: flex;
@@ -9,6 +19,7 @@
         &__list {
             width: 25%;
             list-style-type: none;
+            padding: 0 3rem 0 1rem;
         }
 
         &__link {

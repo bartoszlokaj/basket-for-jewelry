@@ -349,14 +349,20 @@ body {
     height: 7.4rem; }
 
 .navigation-bottom {
-  padding: 3rem 18rem; }
+  padding: 3rem 16rem;
+  background-image: linear-gradient(#f8f8f8, #ffffff); }
+  .navigation-bottom__row {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .navigation-bottom .nav {
     display: flex;
     justify-content: space-around;
     align-items: baseline; }
     .navigation-bottom .nav__list {
       width: 25%;
-      list-style-type: none; }
+      list-style-type: none;
+      padding: 0 3rem 0 1rem; }
     .navigation-bottom .nav__link {
       text-transform: none; }
     .navigation-bottom .nav__item {
