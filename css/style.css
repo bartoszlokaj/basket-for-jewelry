@@ -349,14 +349,16 @@ body {
     height: 7.4rem; }
 
 .navigation-bottom {
-  padding: 3rem 16rem;
+  padding: 11rem 16rem;
   background-image: linear-gradient(#f8f8f8, #ffffff); }
   .navigation-bottom__row {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
     width: 100%; }
+    .navigation-bottom__row--2 {
+      margin-bottom: 6rem; }
   .navigation-bottom .badge {
     margin: 0 2rem; }
   .navigation-bottom__img--5 {
@@ -375,7 +377,7 @@ body {
     .navigation-bottom .nav__list {
       width: 25%;
       list-style-type: none;
-      padding: 0 3rem 0 1rem; }
+      padding: 0 2rem 0 2rem; }
     .navigation-bottom .nav__link {
       text-transform: none; }
     .navigation-bottom .nav__item {
@@ -547,7 +549,7 @@ body {
     background: #ffffff; }
 
 .quality {
-  padding: 7.4rem 15.3rem;
+  padding: 7.4rem 15.3rem 20rem 15.3rem;
   background-image: linear-gradient(#ffffff 76%, #f8f8f8); }
   .quality__panel {
     display: flex;

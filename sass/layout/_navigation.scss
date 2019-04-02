@@ -1,13 +1,17 @@
 .navigation-bottom {
-  padding: 3rem 16rem;
+  padding: 11rem 16rem;
   background-image: linear-gradient($color-light-gray, $color-white);
 
   &__row {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
     width: 100%;
+
+    &--2 {
+        margin-bottom: 6rem;
+    }
   }
 
   .badge {
@@ -41,7 +45,7 @@
     &__list {
       width: 25%;
       list-style-type: none;
-      padding: 0 3rem 0 1rem;
+      padding: 0 2rem 0 2rem;
     }
 
     &__link {
