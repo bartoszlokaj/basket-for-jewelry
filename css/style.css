@@ -353,12 +353,17 @@ body {
   background-image: linear-gradient(#f8f8f8, #ffffff); }
   .navigation-bottom__row {
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0; }
+    .navigation-bottom__row--1 {
+      margin: 0 auto;
+      width: 60%; }
   .navigation-bottom .nav {
     display: flex;
     justify-content: space-around;
-    align-items: baseline; }
+    align-items: baseline;
+    width: 100%; }
     .navigation-bottom .nav__list {
       width: 25%;
       list-style-type: none;
