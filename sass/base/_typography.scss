@@ -216,10 +216,15 @@ body {
 
 .nav__item {
   text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 1.8rem;
   &--header {
     text-transform: uppercase;
-    font-family: sans-serif;
     font-size: 2rem;
     margin-bottom: .5rem;
+  }
+
+  .nav__link {
+    
   }
 }
