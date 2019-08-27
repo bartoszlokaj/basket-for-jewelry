@@ -177,6 +177,9 @@ body {
     font-family: "playfair_displayregular";
     font-size: 7rem;
     letter-spacing: 0;
+    @include respond(phablet) {
+      font-size: 4rem;
+    }
   }
 
   &__currency {
@@ -184,6 +187,7 @@ body {
     letter-spacing: 2px;
     margin-left: 1rem;
   }
+
 }
 
 .contact__info {

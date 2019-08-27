@@ -161,6 +161,9 @@ body {
     font-family: "playfair_displayregular";
     font-size: 7rem;
     letter-spacing: 0; }
+    @media (max-width: 37.5em) {
+      .summary__numbers {
+        font-size: 4rem; } }
   .summary__currency {
     font-size: 3.4rem;
     letter-spacing: 2px;
@@ -516,6 +519,9 @@ body {
     @media (max-width: 56.25em) {
       .order__basket {
         width: 100%; } }
+    @media (max-width: 37.5em) {
+      .order__basket {
+        padding: 1rem; } }
   .order .features {
     display: flex; }
     .order .features__ring {
