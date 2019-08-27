@@ -37,6 +37,10 @@ body {
   &--active {
     color: $color-black;
   }
+
+  @include respond(phablet){
+    font-size: 1.4rem;
+  }
 }
 
 .header-secondary {

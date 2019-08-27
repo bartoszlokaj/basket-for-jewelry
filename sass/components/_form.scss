@@ -9,6 +9,11 @@
   @include respond(tab-port) {
     width: 100%;
   }
+
+  @include respond(phablet) {
+    padding: 4.4rem 4.8rem;
+    transform: unset;
+  }
 }
 
 .form {

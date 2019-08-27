@@ -39,4 +39,8 @@
             height: 2.7rem;
         }
     }
+
+    @include respond(phablet) {
+        padding: 4rem;
+    }
 }

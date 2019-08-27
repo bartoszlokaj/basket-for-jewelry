@@ -34,3 +34,9 @@
           }
     }
 }
+
+@include respond(phablet) {
+    .header {
+        padding: 2rem 1rem;
+    }
+}
