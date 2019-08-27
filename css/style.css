@@ -463,6 +463,14 @@ body {
       @media (max-width: 37.5em) {
         .navigation-bottom__row--2 {
           margin-bottom: 2rem; } }
+  .navigation-bottom__img--5 {
+    height: 6rem; }
+  .navigation-bottom__img--6 {
+    height: 4.8rem; }
+  .navigation-bottom__img--7 {
+    height: 2.1rem; }
+  .navigation-bottom__img--8 {
+    height: 2.5rem; }
   @media (max-width: 37.5em) {
     .navigation-bottom__img {
       height: 20px; } }
